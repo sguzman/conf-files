@@ -1,0 +1,23 @@
+[user]
+	name = Salvador Guzman
+	email = guzmansalv@gmail.com
+[credential]
+	helper = store
+[alias]
+	st = status
+	ls = log --graph --decorate --oneline --all
+[core]
+	editor = nvim
+	compression = 9
+	loosecompression = 9
+[diff]
+	algorithm = minimal
+[gc]
+	aggressiveDepth = 4095
+[pull]
+	rebase = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

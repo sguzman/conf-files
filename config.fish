@@ -67,4 +67,4 @@ set -g theme_title_display_user yes
 set -g theme_title_use_abbreviated_path yes
 set -g theme_use_abbreviated_branch_name no
 
-fortune -a | cowsay 2> /dev/null
+fortune -a | ponysay 2> /dev/null
